@@ -24,11 +24,25 @@ public class Exit : MonoBehaviour             //script for level exit
             {
                 StoryScreen.SetActive(true);
                 Time.timeScale = 0f;
+                if (PlayerPrefs.GetInt("TimeAttack") == 1)
+                {
+                    GameObject Timer = GameObject.FindGameObjectWithTag("Timer");
+                    Timer.GetComponent<TimerScript>().StopTimer();
+
+                }
+                
             }
             else if (nextScene == 12)                    //checks if the player is at the final level of the build
             {
                 CongratsScreen.SetActive(true);
                 Time.timeScale = 0f;
+                if (PlayerPrefs.GetInt("TimeAttack") == 1)
+                {
+                    GameObject Timer = GameObject.FindGameObjectWithTag("Timer");
+                    Timer.GetComponent<TimerScript>().StopTimer();
+
+                }
+
             }
             else
             {
