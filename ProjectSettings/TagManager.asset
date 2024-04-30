@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Pad
+  - Bullet
+  - Level1
+  - Fire
+  - Water
+  - Earth
+  - Wind
+  - CardCanvas
+  - WaterEarth
+  - FireFire
+  - FireWind
+  - FireEarth
+  - FireWater
+  - WaterWind
+  - WaterWater
+  - EarthEarth
+  - EarthWind
+  - WindWind
+  - Breakable
+  - Timer
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - CardSpace
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Bg
+    uniqueID: 2554943537
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
